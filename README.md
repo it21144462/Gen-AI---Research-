@@ -82,5 +82,5 @@ Create a pull request.
 📬 Contact
 For questions or suggestions, feel free to contact us:
 
-📧 Email: genaitutor@gmail.com
+📧 Email: [gen_ai_tutor@gmail.com](mailto:gen_ai_tutor@gmail.com) 
 🧑‍🏫 Supervisor: Mr. Nuwan
