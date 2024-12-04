@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+  
+
+ 
+  
+  .typing-text {
+    display: inline-block;
+    color: white;
+    width: 0;
+    overflow: hidden;
+    vertical-align: bottom;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end) forwards,
+               blink 0.75s step-end infinite;
+    border-right: 2px solid white;
+   
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+  }
+  /* .bg-radial-gradient {
+    background: radial-gradient(
+      circle at center,
+      rgba(34, 255, 149, 0.05) 0%,
+      rgba(34, 255, 149, 0.02) 40%,
+      transparent 70%
+    );
+  } */
+  
