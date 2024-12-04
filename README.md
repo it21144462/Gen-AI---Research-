@@ -51,13 +51,15 @@ The goal of this project is to leverage generative AI to create intelligent and 
 ### Step 1: Clone the Repository  
 ```bash
 git clone https://github.com/your-repo/chat-bots.git
-
+```
 ### Step 2: Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### Step 4: Run a Chatbot
+```bash
 python <name>.py
-
+```
 ⚠️ Challenges and Current Status
 💻 Programming Bot: Fully functional.
 📝 English Bot: Fully functional.
